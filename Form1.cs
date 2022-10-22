@@ -20,7 +20,7 @@ namespace WindowsFormsApp
         private void button1_Click(object sender, EventArgs e)
         {
             int var = Convert.ToInt32(textBox1.Text);
-            var=35*var;
+            var = var * var;
             label2.Text = Convert.ToString(var);
         }
     }
